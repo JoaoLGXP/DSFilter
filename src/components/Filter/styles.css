@@ -1,0 +1,23 @@
+form {
+  margin: 0 20px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: var(--dsfilter-color-bg-tertiary);
+}
+
+.dsfilter-filter-input-field input {
+  width: 200px;
+  height: 40px;
+  border: 1px solid var(--dsfilter-color-card-border);
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.dsfilter-filter-input-field input::placeholder {
+  color: var(--dsfilter-color-font-placeholder);
+}
+
+.dsfilter-filter-input-field input:focus {
+  outline: none;
+}

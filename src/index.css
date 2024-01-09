@@ -1,2 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&display=swap");
 
+:root {
+  --dsfilter-color-bg-primary: #55bc04;
+  --dsfilter-color-bg-secondary: #c2c2c2;
+  --dsfilter-color-bg-tertiary: #fff;
 
+  --dsfilter-color-card-border: #c2c2c2;
+  --dsfilter-color-card-border-secondary: #55bc04;
+
+  --dsfilter-color-btn: #55bc04;
+
+  --dsfilter-color-font-primary: #fff;
+  --dsfilter-color-font-secondary: #6f6f6f;
+  --dsfilter-color-font-tertiary: #55bc04;
+
+  --dsfilter-color-font-placeholder: #c2c2c2;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+html,
+body {
+  background-color: var(--dsfilter-color-bg-secondary);
+}
+
+/*-------------------------------------------------------------*/
+/*generic styles*/
+.dsfilter-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.dsfilter-mt20 {
+  margin-top: 20px;
+}
+
+.dsfilter-mb20 {
+  margin-bottom: 20px;
+}
+
+.dsfilter-pt20 {
+  padding-top: 20px;
+}
+
+.dsfilter-pb20 {
+  padding-bottom: 20px;
+}

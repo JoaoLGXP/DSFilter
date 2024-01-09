@@ -1,0 +1,31 @@
+.dsfilter-listing-content {
+  margin: 20px;
+  padding: 0 20px;
+  border-radius: 5px;
+  background-color: var(--dsfilter-color-bg-tertiary);
+  display: flex;
+  flex-direction: column;
+}
+
+.dsfilter-listing-card {
+  height: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid var(--dsfilter-color-font-tertiary);
+  background-color: var(--dsfilter-color-bg-tertiary);
+}
+
+.dsfilter-listing-product-name {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--dsfilter-color-font-secondary);
+}
+
+.dsfilter-listing-product-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--dsfilter-color-font-tertiary);
+}

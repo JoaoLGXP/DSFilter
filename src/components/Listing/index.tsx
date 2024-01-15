@@ -1,57 +1,19 @@
 import './styles.css';
+import { ProductDTO } from '../../models/product';
 
-export default function Listing() {
+type Props = {
+    product: ProductDTO
+}
+
+export default function Listing({ product }: Props) {
     return (
-        <div className='dsfilter-listing-content dsfilter-pt20'>
-            <div className='dsfilter-listing-card dsfilter-mb20'>
-                <div className='dsfilter-listing-product-name'>
-                    <p>PC Gamer Pro</p>
-                </div>
-                <div className='dsfilter-listing-product-price'>
-                    <h3>R$ 1200.00</h3>
-                </div>
+        <div className='dsfilter-listing-card'>
+            <div className='dsfilter-listing-product-name'>
+                {product.name}
             </div>
-            <div className='dsfilter-listing-card dsfilter-mb20'>
-                <div className='dsfilter-listing-product-name'>
-                    <p>PC Gamer Pro</p>
-                </div>
-                <div className='dsfilter-listing-product-price'>
-                    <h3>R$ 1200.00</h3>
-                </div>
-            </div>
-            <div className='dsfilter-listing-card dsfilter-mb20'>
-                <div className='dsfilter-listing-product-name'>
-                    <p>PC Gamer Pro</p>
-                </div>
-                <div className='dsfilter-listing-product-price'>
-                    <h3>R$ 1200.00</h3>
-                </div>
-            </div>
-            <div className='dsfilter-listing-card dsfilter-mb20'>
-                <div className='dsfilter-listing-product-name'>
-                    <p>PC Gamer Pro</p>
-                </div>
-                <div className='dsfilter-listing-product-price'>
-                    <h3>R$ 1200.00</h3>
-                </div>
-            </div>
-            <div className='dsfilter-listing-card dsfilter-mb20'>
-                <div className='dsfilter-listing-product-name'>
-                    <p>PC Gamer Pro</p>
-                </div>
-                <div className='dsfilter-listing-product-price'>
-                    <h3>R$ 1200.00</h3>
-                </div>
-            </div>
-            <div className='dsfilter-listing-card dsfilter-mb20'>
-                <div className='dsfilter-listing-product-name'>
-                    <p>PC Gamer Pro</p>
-                </div>
-                <div className='dsfilter-listing-product-price'>
-                    <h3>R$ 1200.00</h3>
-                </div>
+            <div className='dsfilter-listing-product-price'>
+                R$ {product.price.toFixed(2)}
             </div>
         </div>
-
     );
 }

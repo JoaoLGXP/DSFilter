@@ -21,3 +21,14 @@ form {
 .dsfilter-filter-input-field input:focus {
   outline: none;
 }
+
+.dsfilter-button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--dsfilter-color-btn);
+  color: var(--dsfilter-color-font-primary);
+  font-size: 16px;
+  font-weight: 700;
+}

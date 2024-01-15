@@ -1,0 +1,10 @@
+.dsfilter-listing-content {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: var(--dsfilter-color-bg-tertiary);
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-gap: 20px;
+}
